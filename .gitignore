@@ -1,0 +1,25 @@
+# KiCad temp / autosave
+**/_autosave-*
+*.bak
+*.bck
+*.tmp
+*.swp
+*.lck
+
+# KiCad cache / local prefs
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Generated outputs
+gerbers/
+outputs/
+fabrication/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+
+
