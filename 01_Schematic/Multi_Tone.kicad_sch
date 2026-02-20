@@ -3533,6 +3533,8 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "30fbdb98-2228-42a1-b3ac-b9591c72a309")
@@ -3553,6 +3555,8 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "77353380-a34d-40a0-8fda-98759f48e63c")
@@ -3563,6 +3567,8 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "997829e1-94a8-45d0-a152-461a729fec01")
@@ -3573,6 +3579,8 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "9b4f8a48-0236-4df8-91ec-0cb5c3737367")
@@ -3583,6 +3591,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
 			)
 		)
 		(uuid "b1fc6f8d-8cb2-494c-a6d1-dbac2e5abceb")
@@ -3593,9 +3604,23 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "c3304b91-2357-4652-b863-0b5ece45813f")
+	)
+	(text "DECOUPLING CAPS"
+		(exclude_from_sim no)
+		(at 124.714 192.786 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "ca0d8c1d-a7de-498a-bda4-c9f804f6599e")
 	)
 	(text "LOW PASS FILTER"
 		(exclude_from_sim no)
@@ -3603,6 +3628,8 @@
 		(effects
 			(font
 				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 		)
 		(uuid "caef106a-eccf-40f8-89c3-f90494e1f45b")
@@ -5372,24 +5399,14 @@
 		(uuid "46529049-82c7-417d-8279-26bf886f610a")
 	)
 	(label "VAC-"
-		(at 30.48 41.91 0)
+		(at 24.13 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "58e5ee64-2829-43df-a058-46aac7903e37")
-	)
-	(label "VAC+"
-		(at 30.48 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66cf4e79-c571-4623-abeb-856785465af2")
+		(uuid "5f821744-5afe-45a5-835c-d9104dabf323")
 	)
 	(label "V_AMP"
 		(at 171.45 129.54 0)
@@ -5400,6 +5417,16 @@
 			(justify left bottom)
 		)
 		(uuid "98ef19a5-6c78-494e-beda-6c66fe7dc92f")
+	)
+	(label "VAC+"
+		(at 24.13 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aeda0e0a-7bad-4aeb-a136-9c902a77ec30")
 	)
 	(label "OUT_HIGH"
 		(at 87.63 107.95 0)
@@ -5477,6 +5504,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 257.81 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "224-0424P"
+			(at 257.81 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/2240424P?gb=s					"
+			(at 257.81 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,6 +5672,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 31.75 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 31.75 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 31.75 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf79a5bf-e2b2-44b5-a75c-d4d2e328c8ce")
 		)
@@ -5688,6 +5769,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 273.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "755-1233"
+			(at 273.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/7551233?gb=s					"
+			(at 273.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6be00563-5ebb-430b-9945-8dd4982ae1c5")
 		)
@@ -5747,6 +5855,33 @@
 			)
 		)
 		(property "Description" "Diode bridge, +ve/-ve/AC/AC"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DB107-BPMS-ND"
+			(at 69.85 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Link														\r https://www.digikey.co.uk/en/products/detail/mcc-micro-commercial-components-/DB107-BP/773574?gclsrc=aw.ds&gad_source=1&gad_campaignid=19510052873&gbraid=0AAAAADrbLliYsxl5IaB90-mP9Y_ucWSJb&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJYpWI8zAuGLL-eBv7v0AVOpOO0swKNAhEvY7IZ-UzinA7t7A_Jc0swaAtbPEALw_wcB														"
 			(at 69.85 39.37 0)
 			(effects
 				(font
@@ -5847,6 +5982,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "Digikey"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148FS-ND"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/onsemi/1N4148/458603					"
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f589361c-13c4-4f94-aeb3-95d180df8d8c")
 		)
@@ -5917,6 +6079,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a38d47a6-b0a9-40ce-bb25-a142f629d766")
 		)
@@ -5977,6 +6166,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 100.33 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "683-6552"
+			(at 100.33 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/6836552?gb=s					"
+			(at 100.33 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,6 +6334,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 49.53 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 49.53 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 49.53 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "332c2ee7-e080-4010-8795-0cc6adf33bd3")
 		)
@@ -6179,6 +6422,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 224.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 224.79 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "841-0733"
+			(at 224.79 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8410733?gb=s						"
+			(at 224.79 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,6 +6526,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "674da6c2-2cec-4195-bd71-5680cab4d23a")
 		)
@@ -6323,6 +6620,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87f9b792-c3c6-424a-868e-4584db1891f4")
 		)
@@ -6381,6 +6705,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 257.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 257.81 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "224-0424P"
+			(at 257.81 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/2240424P?gb=s					"
+			(at 257.81 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,6 +6812,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "843-1575"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/bipolar-transistors/8431575?gb=s					"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "593dac23-6629-4028-b5ea-da090e1d41ed")
 		)
@@ -6525,6 +6903,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 265.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 265.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 265.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
 			(at 265.43 124.46 0)
 			(effects
 				(font
@@ -6666,6 +7071,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a38ccc0-25b4-4154-bfd7-a2004661f570")
 		)
@@ -6728,6 +7160,33 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 270.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 270.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "843-1575"
+			(at 270.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/bipolar-transistors/8431575?gb=s					"
 			(at 270.51 132.08 0)
 			(effects
 				(font
@@ -6809,6 +7268,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d7bab30-3b89-4917-b16e-f5c04443f05c")
 		)
@@ -6829,7 +7315,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "335975ca-ae97-494b-adba-c82a5a28b04c")
 		(property "Reference" "#PWR014"
 			(at 273.05 97.79 0)
@@ -6932,6 +7417,33 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 62.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 62.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-8467"
+			(at 62.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1218467?gb=s				"
 			(at 62.23 172.72 0)
 			(effects
 				(font
@@ -7158,6 +7670,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 74.93 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "167-3364"
+			(at 74.93 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/trimmer-potentiometers/1673364?gb=s					"
+			(at 74.93 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9671d48f-827e-44dd-9d3b-86cd75ec0f7f")
 		)
@@ -7355,6 +7894,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "125-1159"
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/1251159?gb=s					"
 			(at 234.95 21.59 0)
 			(effects
 				(font
@@ -7563,6 +8129,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 270.51 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-9109"
+			(at 270.51 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1219109?gb=s				"
+			(at 270.51 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "f1c0c71d-9b2e-4f1e-ba41-6d489a5fd6b9")
 		)
@@ -7734,6 +8327,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "357367f6-ef91-4496-b152-c1b8b3e69463")
 		)
@@ -7792,6 +8412,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 123.19 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 123.19 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 123.19 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 123.19 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,6 +8580,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 110.49 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "224-0424P"
+			(at 110.49 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/2240424P?gb=s					"
+			(at 110.49 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5f4d27a-01d6-43d9-8634-a17affa063d4")
 		)
@@ -8001,6 +8675,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "683-3099P"
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/6833099P?gb=s					"
+			(at 187.96 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7415d496-379f-494f-8b18-352b03597fb1")
 		)
@@ -8062,6 +8763,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 170.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 170.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "790-1092"
+			(at 170.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901092					"
 			(at 170.18 53.34 0)
 			(effects
 				(font
@@ -8142,6 +8870,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 36.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa7c9ed9-cdc7-4730-b821-93dd0a4b190f")
 		)
@@ -8201,6 +8956,33 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-9109"
+			(at 114.3 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1219109?gb=s				"
 			(at 114.3 167.64 0)
 			(effects
 				(font
@@ -8345,7 +9127,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Y"
+		(property "Value" "LEDY"
 			(at 238.76 32.0674 90)
 			(effects
 				(font
@@ -8383,6 +9165,33 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 234.95 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 234.95 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5962-XL-302UYD-ND"
+			(at 234.95 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/xinglight/XL-302UYD/25673212?s=N4IgjCBcoKwEwyqAxlAZgQwDYGcCmANCAPZQDaIALHAMxwAMlIAukQA4AuUIAyhwE4BLAHYBzEAF8iDOAE4kIVJEy5CJcuADs9GgDZdLdl0i8BI8VJABaCNEXps%2BIqUgUYs3XBYSfQA														"
+			(at 234.95 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,6 +9336,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "918-1975"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/voltage-regulators/9181975?gb=s					"
+			(at 113.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bb07f7aa-10d4-4f21-bb19-96470b92ac19")
 		)
@@ -8592,6 +9428,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 184.15 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 184.15 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "683-3575"
+			(at 184.15 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/6833575?gb=s					"
+			(at 184.15 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,6 +9541,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5962-XL-302UBD-ND"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/xinglight/XL-302UBD/25673046						"
+			(at 125.73 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b04a2f7-08c3-49c6-87ca-01e493c79335")
 		)
@@ -8740,6 +9630,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 127 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -8881,6 +9798,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "703-7318"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/aluminium-capacitors/7037318?gb=s					"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f5d2095-0a06-445d-bcd2-93e38393d15c")
 		)
@@ -8942,6 +9886,33 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-9109"
+			(at 78.74 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1219109?gb=s				"
 			(at 78.74 107.95 0)
 			(effects
 				(font
@@ -9131,6 +10102,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 273.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5962-XL-302UGD-ND"
+			(at 273.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/xinglight/XL-302UGD/25673198						"
+			(at 273.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f096c101-2a28-4022-bb0f-2a5d0d34cbe2")
 		)
@@ -9193,6 +10191,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "703-7318"
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/aluminium-capacitors/7037318?gb=s					"
 			(at 85.09 46.99 0)
 			(effects
 				(font
@@ -9340,6 +10365,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "843-1575"
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/bipolar-transistors/8431575?gb=s					"
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "899b9e2e-5876-4fef-b826-98e3f608193b")
 		)
@@ -9413,6 +10465,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "755-1233"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/7551233?gb=s					"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1bac360d-22ab-4e09-93d0-9a308cb761f6")
 		)
@@ -9436,7 +10515,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89caf0eb-75ad-4e3e-a0fc-836f22c91074")
 		(property "Reference" "#PWR015"
 			(at 209.55 99.06 0)
@@ -9548,6 +10626,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87c3e0d1-2323-4d42-9382-b9bbe7b9ba63")
 		)
@@ -9607,6 +10712,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "526-1597"
+			(at 140.97 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/aluminium-capacitors/5261597?gb=s					"
 			(at 140.97 62.23 0)
 			(effects
 				(font
@@ -9685,6 +10817,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 212.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 212.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 212.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2b4138f-cf93-4da6-99d3-a30170d0bd89")
 		)
@@ -9752,6 +10911,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 233.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdcfbcf4-1bc8-4534-afdd-e3eba4c4f58e")
 		)
@@ -9809,6 +10995,33 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-9109"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1219109?gb=s				"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -9921,6 +11134,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 224.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "148-893"
+			(at 224.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/0148893?gb=s					"
+			(at 224.79 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0936833-7eac-416d-ba94-3d3ef2b210af")
 		)
@@ -9982,6 +11222,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 153.67 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 153.67 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 153.67 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 153.67 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,6 +11391,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e949840c-7fd6-4199-87c0-a28dc8c1dd41")
 		)
@@ -10183,6 +11477,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "124-2864"
+			(at 62.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/1242864?gb=s					"
 			(at 62.23 119.38 0)
 			(effects
 				(font
@@ -10252,6 +11573,33 @@
 			)
 		)
 		(property "Description" "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "168-6803"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/voltage-regulators/1686803?gb=s					"
 			(at 113.03 68.58 0)
 			(effects
 				(font
@@ -10334,6 +11682,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "148-893"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/0148893?gb=s					"
+			(at 193.04 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a3dd728-9ad0-4949-8d4b-fb287ca7a7e5")
 		)
@@ -10397,6 +11772,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 44.45 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 44.45 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 44.45 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
 			(at 44.45 175.26 0)
 			(effects
 				(font
@@ -10530,6 +11932,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "790-1092"
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901092					"
 			(at 19.05 39.37 0)
 			(effects
 				(font
@@ -10678,6 +12107,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "124-2864"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/1242864?gb=s					"
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e64b85c9-f20c-4bc8-ba9f-9135969756c4")
 		)
@@ -10740,6 +12196,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "790-1098"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/pcb-terminal-blocks/7901098					"
 			(at 30.48 170.18 0)
 			(effects
 				(font
@@ -10883,6 +12366,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-9109"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1219109?gb=s				"
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "485d97ba-784f-4ee5-a054-aa31794c7797")
 		)
@@ -11005,6 +12515,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "Digikey"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148FS-ND"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/onsemi/1N4148/458603					"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d27d7a34-af54-4dcd-bc0a-60078b13ea67")
 		)
@@ -11067,6 +12604,33 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "526-1597"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/aluminium-capacitors/5261597?gb=s					"
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -11145,6 +12709,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 78.74 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11976323-777e-48fe-a75f-de214a265993")
 		)
@@ -11203,6 +12794,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 123.19 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 123.19 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 123.19 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 123.19 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,6 +12963,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 200.66 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "683-3099P"
+			(at 200.66 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/6833099P?gb=s					"
+			(at 200.66 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba077a07-ac37-4e38-b005-d3ad99384e06")
 		)
@@ -11479,6 +13124,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-8467"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1218467?gb=s				"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "752613f9-f0f2-406c-90b2-e0472d7c947c")
 		)
@@ -11559,6 +13231,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "DigiKey"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
 			(at 152.4 53.34 0)
 			(effects
 				(font
@@ -11833,6 +13532,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2057-PH1-01-UA-ND"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/adam-tech/PH1-01-UA/9830231?gclsrc=aw.ds&gad_source=1&gad_campaignid=17347303118&gbraid=0AAAAADrbLlhqkwVSw3zdbicfDL_5iFHO0&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJa2hYVOuuGV5rE7osiqe08t_8C49e3suhL-E5clrb31zhgrSJ61hv0aAqieEALw_wcB														"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54793ba1-e90b-422e-908b-17e7ff11a831")
 		)
@@ -11891,6 +13617,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 201.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 201.93 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "133-5725"
+			(at 201.93 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1335725?gb=s						"
+			(at 201.93 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,6 +13787,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45d73aaa-46d9-4ecb-9c8a-b4440e48421f")
 		)
@@ -12113,6 +13893,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "DigiKey"
+			(at 273.05 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5962-XL-302URD-ND"
+			(at 273.05 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/xinglight/XL-302SURD/25673354						"
+			(at 273.05 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5dd3a12d-9624-4f6c-baef-adf3ac6a8373")
 		)
@@ -12174,6 +13981,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 153.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 153.67 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "852-3270"
+			(at 153.67 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/8523270?cm_mmc=UK-PLA-DS3A-_-google-_-CSS_UK_EN_PMAX_Catch+All-_--_-8523270&matchtype=&&gclsrc=aw.ds&gad_source=1&gad_campaignid=20567417192&gbraid=0AAAAADkeWNOl0cWuExnRRaxKjYT31WrYx&gclid=Cj0KCQjw5onGBhDeARIsAFK6QJaIGV3vCEjXbfPE3YOPKOMIcqedHmu7kTYnXqeYTS6g5oBbhO63kBMaAiXDEALw_wcB														"
+			(at 153.67 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,6 +14143,33 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "121-8467"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/op-amps/1218467?gb=s				"
 			(at 144.78 168.91 0)
 			(effects
 				(font
@@ -12669,6 +14530,33 @@
 				(hide yes)
 			)
 		)
+		(property " Manufacturer" "RS"
+			(at 273.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "755-1233"
+			(at 273.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/surface-mount-resistors/7551233?gb=s					"
+			(at 273.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58a869ca-5cc1-4909-80eb-f6e76bd01959")
 		)
@@ -12730,6 +14618,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "RS"
+			(at 50.8 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "487-7141"
+			(at 50.8 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://uk.rs-online.com/web/p/through-hole-resistors/4877141?gb=s					"
+			(at 50.8 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,6 +14730,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " Manufacturer" "Digikey"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1N4148FS-ND"
+			(at 250.19 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "https://www.digikey.co.uk/en/products/detail/onsemi/1N4148/458603					"
 			(at 250.19 132.08 0)
 			(effects
 				(font
