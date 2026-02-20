@@ -1,0 +1,1 @@
+A three-band music visualiser. It takes audio signals, splits them into low (bass), mid (voice), and high (treble) bands using op-amp filters, converts each band’s loudness into a smooth control signal, and drives three LEDs via 2N3904 transistors. The circuit runs from a regulated ±12 V supply.
